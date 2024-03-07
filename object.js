@@ -11,4 +11,8 @@ const userObject = {
     }
 }
 
-console.log(userObjectgi )
+delete userObject.baran.age
+
+for(let u in userObject) {
+    console.log(userObject[u].name);
+}
